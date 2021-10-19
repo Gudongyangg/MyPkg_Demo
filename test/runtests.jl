@@ -1,9 +1,12 @@
-using MyPkg
-using Test
+using MyPkg 
+using QuadGk
+using Simpson
+
 
 @testset "MyPkg.jl" begin
     # Write your tests here.
-    @test MyPkg.add_nums(2,2) == 4
-    @test MyPkg.add_nums(1,2) == 3
-    @test MyPkg.add_nums(1,2) == 4
+    f = x^2
+    @test MyPkg.Simpson(f,0,1) == 4
+    @test MyPkg.Simpson(f,1,2) == 4
+    @test MyPkg.Simpson(f,2,3) == 4
 end
