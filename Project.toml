@@ -3,6 +3,9 @@ uuid = "7ef1970c-3801-48bc-b879-b67318b7b8d2"
 authors = ["Gudongyangg"]
 version = "0.1.0"
 
+[deps]
+QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
+
 [compat]
 julia = "1.6"
 
