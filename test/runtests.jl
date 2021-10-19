@@ -1,6 +1,7 @@
-using MyPkg 
-using QuadGk
+using MyPkg
+using add_nums
 using Simpson
+using QuadGK
 
 
 @testset "MyPkg.jl" begin
